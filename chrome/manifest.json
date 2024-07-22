@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Postal Code Neighborhood Finder",
+    "version": "1.0",
+    "description": "Finds the neighborhood for a given postal code.",
+    "permissions": ["activeTab", "storage"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
