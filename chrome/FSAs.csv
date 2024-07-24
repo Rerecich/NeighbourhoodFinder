@@ -1,27 +1,193 @@
-﻿PostalCode,Neighborhood
-V6T,UBC
-V6R,Point Grey
-V6S,Dunbar
-V6K,Kits
-V6L,Arbutus
-V5T,Mount Pleasant
-V7W,West Van
-V6E,Downtown
-V6A,Strathcona 
-V5P,Victoria
-V5L,Grandview
-V5K,Sunrise
-V5R,Renfrew
-V5S,Killarney
-V7S,West Van
-V7V,West Van
-V7T,West Van
-V7P,North Van
-V7R,North Van
-V7N,North Van
-V7M,North Van
-V7L,North Van
-V7K,North Van
-V7J,North Van
-V7H,North Van
-V7G,North Van
+﻿FSA,Neighbourhood
+V5K,Vancouver (North Hastings-Sunrise)
+V5L,Vancouver (North Grandview-Woodlands)
+V5M,Vancouver (South Hastings-Sunrise / North Renfrew-Collingwood)
+V5N,Vancouver (South Grandview-Woodlands / NE Kensington)
+V5P,Vancouver (SE Kensington / Victoria-Fraserview)
+V5R,Vancouver (South Renfrew-Collingwood)
+V5S,Vancouver (Killarney)
+V5T,Vancouver (East Mount Pleasant)
+V5V,Vancouver (West Kensington / NE Riley Park-Little Mountain)
+V5W,Vancouver (SE Riley Park-Little Mountain / SW Kensington / NE Oakridge / North Sunset)
+V5X,Vancouver (SE Oakridge / East Marpole / South Sunset)
+V5Y,Vancouver (West Mount Pleasant / West Riley Park-Little Mountain)
+V5Z,Vancouver (East Fairview / South Cambie)
+V6A,Vancouver (Strathcona / Chinatown / Downtown Eastside)
+V6B,Vancouver (NE Downtown / Harbour Centre / Gastown / Yaletown)
+V6C,Vancouver (Waterfront / Coal Harbour / Canada Place)
+V6E,Vancouver (South West End)
+V6G,Vancouver (North West End / Stanley Park)
+V6H,Vancouver (West Fairview / Granville Island / NE Shaughnessy)
+V6J,Vancouver (NW Shaughnessy / East Kitsilano / Quilchena)
+V6K,Vancouver (Central Kitsilano)
+V6L,Vancouver (NW Arbutus Ridge)
+V6M,Vancouver (South Shaughnessy / NW Oakridge / NE Kerrisdale / SE Arbutus Ridge)
+V6N,Vancouver (Dunbar-Southlands / Musqueam)
+V6P,Vancouver (SE Kerrisdale / SW Oakridge / West Marpole)
+V6R,Vancouver (West Kitsilano / Jericho)
+V6S,Vancouver (Chaldecutt / South University Endowment Lands)
+V6T,Vancouver (UBC)
+V6Z,Vancouver (SW Downtown)
+V7G,North Vancouver Outer East
+V7H,North Vancouver Inner East
+V7J,North Vancouver East Central
+V7K,North Vancouver North Central
+V7L,North Vancouver South Central
+V7M,North Vancouver Southwest Central
+V7N,North Vancouver Northwest Central
+V7P,North Vancouver Southwest
+V7R,North Vancouver Northwest
+V7S,West Vancouver North
+V7T,West Vancouver Southeast
+V7V,West Vancouver South
+V7W,West Vancouver West
+V7X,Vancouver (Bentall Centre)
+V7Y,Vancouver (Pacific Centre)
+V0A,Upper Columbia Region (Golden)
+V0B,East Kootenays (Fernie)
+V0C,Northern British Columbia (Fort Nelson)
+V0E,Central Okanagan and High Country (Revelstoke)
+V0G,West Kootenays (Rossland)
+V0H,South Okanagan (Summerland)
+V0J,Omineca and Yellowhead (Smithers)
+V0K,Cariboo and West Okanagan (100 Mile House)
+V0L,Chilcotin (Alexis Creek)
+V0M,Harrison Lake Region (Agassiz)
+V0N,"North Island, Sunshine Coast, and Southern Gulf Islands (Whistler)"
+V0P,North Central Island and Bute Inlet Region (Gold River)
+V0R,Central Island (Chemainus)
+V0S,Juan de Fuca Shore (Sooke)
+V0T,Inside Passage and the Queen Charlottes (Queen Charlotte City)
+V0V,Lower Skeena (Port Edward)
+V0W,Atlin Region (Atlin)
+V0X,Similkameen (Hope)
+V1A,Kimberley
+V1B,Vernon East
+V1C,Cranbrook
+V1E,Salmon Arm
+V1G,Dawson Creek
+V1H,Vernon West
+V1J,Fort St. John
+V1K,Merritt
+V1L,Nelson
+V1M,Langley Township North
+V1N,Castlegar
+V1P,Kelowna East
+V1R,Trail
+V1S,Kamloops Southwest
+V1T,Vernon Central
+V1V,Kelowna North
+V1W,Kelowna Southwest
+V1X,Kelowna East Central
+V1Y,Kelowna Central
+V1Z,Kelowna West
+V2A,Penticton
+V2B,Kamloops Northwest
+V2C,Kamloops Central and Southeast
+V2E,Kamloops South and West
+V2G,Williams Lake
+V2H,Kamloops North
+V2J,Quesnel
+V2K,Prince George North
+V2L,Prince George East Central
+V2M,Prince George West Central
+V2N,Prince George South
+V2P,Chilliwack Central
+V2R,Chilliwack West
+V2S,Abbotsford Southeast
+V2T,Abbotsford Southwest
+V2V,Mission East
+V2W,Maple Ridge East
+V2X,Maple Ridge West
+V2Y,Langley Township Northwest
+V2Z,Langley Township Southwest
+V3A,Langley City
+V3B,Port Coquitlam Central
+V3C,Port Coquitlam South
+V3E,Port Coquitlam North
+V3G,Abbotsford East
+V3H,Port Moody
+V3J,Coquitlam North
+V3K,Coquitlam South
+V3L,New Westminster Northeast
+V3M,New Westminster Southwest (Includes Annacis Island)
+V3N,Burnaby (East Big Bend / Stride Avenue / Edmonds / Cariboo-Armstrong)
+V3R,Surrey North
+V3S,Surrey East
+V3T,Surrey Inner Northwest
+V3V,Surrey Outer Northwest
+V3W,Surrey Upper West
+V3X,Surrey Lower West
+V3Y,Pitt Meadows
+V3Z,Surrey
+V4A,Surrey Southwest
+V4B,White Rock
+V4C,Delta Northeast
+V4E,Delta East
+V4G,Delta East Central
+V4K,Delta Central
+V4L,Delta Southeast
+V4M,Delta Southwest
+V4N,Surrey Northeast
+V4P,Surrey South
+V4R,Maple Ridge Northwest
+V4S,Mission West
+V4T,Westbank
+V4V,Winfield
+V4W,Langley Township East
+V4X,Abbotsford West
+V4Z,Chilliwack East
+V5A,Burnaby (Government Road / Lake City / SFU / Burnaby Mountain)
+V5B,Burnaby (Parkcrest-Aubrey / Ardingley-Sprott)
+V5C,Burnaby (Burnaby Heights / Willingdon Heights / West Central Valley)
+V5E,Burnaby (Lakeview-Mayfield / Richmond Park / Kingsway-Beresford)
+V5G,Burnaby (Cascade-Schou / Douglas-Gilpin)
+V5H,Burnaby (Maywood / Marlborough / Oakalla / Windsor)
+V5J,Burnaby (Suncrest / Sussex-Nelson / Clinton-Glenwood / West Big Bend)
+V6V,Richmond Northeast
+V6W,Richmond Southeast
+V6X,Richmond North
+V6Y,Richmond Central
+V7A,Richmond South
+V7B,Richmond (Sea Island / YVR)
+V7C,Richmond West
+V7E,Richmond Southwest
+V8A,Powell River
+V8B,Squamish
+V8C,Kitimat
+V8E,Whistler
+V8G,Terrace
+V8J,Prince Rupert
+V8K,Saltspring Island
+V8L,Sidney
+V8M,Central Saanich
+V8N,Saanich East
+V8P,Saanich Southeast
+V8R,Oak Bay North
+V8S,Oak Bay South
+V8T,Victoria North
+V8V,Victoria South
+V8W,Victoria Central British Columbia Provincial Government
+V8X,Saanich South
+V8Y,Saanich North
+V8Z,Saanich Central
+V9A,Esquimalt
+V9B,Highlands
+V9C,Metchosin
+V9E,Saanich West
+V9G,Ladysmith
+V9H,Campbell River Outskirts
+V9J,Courtenay Northern Outskirts
+V9K,Qualicum Beach
+V9L,Duncan
+V9M,Comox
+V9N,Courtenay Central
+V9P,Parksville
+V9R,Nanaimo South
+V9S,Nanaimo Central
+V9T,Nanaimo North
+V9V,Nanaimo Northwest
+V9W,Campbell River Central
+V9X,Cedar
+V9Y,Port Alberni
+V9Z,Sooke

@@ -6,23 +6,24 @@ app = Flask(__name__)
 # Load the dataset
 dataset = pd.read_csv('FSAs.csv')
 
-def find_neighborhood(postal_code, dataset):
-    FSA = dataset.loc[dataset['PostalCode'] == postal_code, 'Neighborhood']
+def find_neighbourhood(postal_code, dataset):
+    postal_code = postal_code[:3].upper()
+    FSA = dataset.loc[dataset['FSA'] == postal_code, 'Neighbourhood']
     if not FSA.empty:
         return FSA.values[0]
     else:
-        return "Postal code not found in the dataset."
+        return
 
-@app.route('/neighborhood', methods=['GET'])
+@app.route('/neighbourhood', methods=['GET'])
 
-def get_neighborhood():
+def get_neighbourhood():
     postal_code = request.args.get('postal_code')
     if not postal_code:
         return jsonify({'error': 'Postal code is required'}), 400
     
-    neighborhood = find_neighborhood(postal_code, dataset)
-    return (jsonify({'neighborhood': neighborhood}))
+    neighbourhood = find_neighbourhood(postal_code, dataset)
+    return (jsonify({'neighbourhood': neighbourhood}))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=False)
   

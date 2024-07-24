@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Postal Code Neighborhood Finder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="font-family" href="https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300">
+  <title>Postal Code Neighbourhood Finder</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      width: 200px;
+      font-family: 'Open Sans', Helvetica, arial, sans-serif;
+      font-size: xx-small;
+      width: 250px;
       padding: 10px;
+    }
+
+    nh {
+      font-family: 'Open Sans', Helvetica, arial, sans-serif;
+      font-size: medium;
+      width: 250px;
+      padding-top: 10px
+    }
+
+    nh2 {
+      font-family: 'Open Sans', Helvetica, arial, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      width: 250px;
+      padding-top: 300px;
+    }
+
+    nh3 {
+      font-family: 'Open Sans', Helvetica, arial, sans-serif;
+      font-size: small;
+      font-weight: bold;
+      width: 250px;
+      padding-top: 300px;
+    }
+
+    .input-container {
+      position: relative;
+      width: 100%;
     }
     input {
-      width: calc(100% - 22px);
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-    button {
       width: 100%;
       padding: 10px;
+      box-sizing: border-box;
+      border-radius: 10px;
     }
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 40px;
+      padding: 10px;
+      background: transparent;
+      color: black;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      color: #0b7dda
+    }
+
+    button::after {
+      content: "";
+      clear: both;
+    }
+
     p {
       margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Neighborhood</h1>
-  <input type="text" id="postalCode" placeholder="Enter postal code">
-  <button id="findButton">Find</button>
-  <p id="result"></p>
+  <nh>NEIGHBOURHOOD FINDER <br></nh>
+  <p></p>
+  <nh2>Enter first three digits of postal code<br><nh2>
+  <p></p>
+
+  <div class="input-container" style="margin:auto;max-width:300px">
+    <input type="text" id="postal_code" placeholder="eg. V6T ">
+    <button type="submit" id="findButton" class="fa fa-search"></button>
+  </div>
+
+  <p></p><nh3 id="result"></nh3>
   <script src="popup.js"></script>
 </body>
 </html>
